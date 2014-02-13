@@ -44,8 +44,8 @@ function performComparison(callback) {
 
       cachedLookup = status;
 
-      // Refresh the cached comparison in 5 minutes.
-      setTimeout(performComparison, 1000 * 60 * 5);
+      // Refresh the cached comparison in 30 minutes.
+      setTimeout(performComparison, 1000 * 60 * 30);
 
       if (typeof callback == 'function')
         callback(status);
