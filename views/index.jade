@@ -1,0 +1,11 @@
+- locals.pageTitle = "Is the Google CDN hacked?"
+
+extends layout
+
+block content
+
+    h1 Is the Google CDN Hacked?
+
+    p#verdict= result.verdict
+
+    p.timestamp Last verified #{result.timeSinceLastCheck} ago. (#{result.lastChecked})

@@ -1,0 +1,14 @@
+{
+  "name": "IsTheGoogleCDNHacked.com",
+  "version": "1.0.0",
+  "devDependencies": {
+    "underscore.date": "~0.6.1",
+    "request": "~2.33.0",
+    "express": "~3.4.8",
+    "jade": "~1.1.5"
+  },
+  "noAnalyze": true,
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

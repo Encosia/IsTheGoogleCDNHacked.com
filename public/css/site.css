@@ -1,0 +1,23 @@
+h1 { display: none; }
+
+body {
+  padding:100px 0;
+  font: normal normal normal 30px/normal tahoma, serif;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#verdict {
+  font: normal normal bold 200px/normal tahoma, sans-serif;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.timestamp {
+  font-size: small;
+  font-style: italic;
+}
