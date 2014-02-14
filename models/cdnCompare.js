@@ -30,9 +30,7 @@ function performComparison(callback) {
   request(urls.googleCdn.production, function(error, response, body) {
     var cdn = body;
 
-    request(urls.official.production, function(error, response, body) {
-      var official = body;
-
+    request(urls.official.production, function(error, response, official) {
       var status = compare(official, cdn);
 
       if (status)
